@@ -1,0 +1,22 @@
+{
+  "name": "reqparam1",
+  "version": "1.0.0",
+  "description": "demo of req params",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "req",
+    "express"
+  ],
+  "author": "Akhil",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "latest",
+    "ejs": "^2.5.7",
+    "express": "^4.13.4",
+    "express-session": "^1.15.6",
+    "mongodb": "^3.0.2"
+  }
+}

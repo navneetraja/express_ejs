@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>login page</title>
+        <% include partials/header.html %>
+    </head>
+    <body>
+        <h1>User information</h1>
+        <% for (var d=0;d<docs.length;d++){%>
+                <h1>Name   <%= docs[d].name %></h1>
+                <h1>Email <%= docs[d].email %></h1>
+               <h1>Mobile <%=docs[d].mobile %></h1> 
+                <% } %>
+    </body>
+</html>
+
+
+
+
+
+
+ 
